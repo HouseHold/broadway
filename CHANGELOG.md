@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.2.x
+
+* [16dd70d](https://github.com/HouseHold/broadway/commit/16dd70d1247f182429ba44157534466f91ceaa39) Add PHPUnit 8 support. (rppgorecki)
+* [344b6d5](https://github.com/HouseHold/broadway/commit/344b6d563472672454fda7af35e30b0170cc22f8) Make playhead protected in EventSourcedAggregateRoot. (Luis)
+* [6d07cd4](https://github.com/HouseHold/broadway/commit/6d07cd4cc1815786ad4d7ed88d7b51341a0ac6f4) Add replay events feature (Jorge Arco)
+
 ## v2.0.x
 
 #### BC breaks

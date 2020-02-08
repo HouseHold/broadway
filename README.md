@@ -13,10 +13,12 @@ together to provide a full CQRS\ES experience.
 Read the blog post about this repository at:
 - http://labs.qandidate.com/blog/2014/08/26/broadway-our-cqrs-es-framework-open-sourced/
 
+This is fork of the main version with contributions targeted orignally to the broadway/broadway but was never accepted for unkown reasons.
+
 ## Installation
 
 ```
-$ composer require broadway/broadway
+$ composer require household/broadway
 ```
 
 ## Documentation

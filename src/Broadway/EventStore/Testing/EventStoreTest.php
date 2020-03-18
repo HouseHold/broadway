@@ -3,7 +3,7 @@
 /*
  * This file is part of the broadway/broadway package.
  *
- * (c) Qandidate.com <opensource@qandidate.com>
+ * (c) 2020 Broadway project
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -30,7 +30,9 @@ use PHPUnit\Framework\TestCase;
 
 abstract class EventStoreTest extends TestCase
 {
-    /** @var EventStore */
+    /**
+     * @varEventStore
+     */
     protected $eventStore;
 
     /**
@@ -117,7 +119,7 @@ abstract class EventStoreTest extends TestCase
             'Yolntbyaac' //You only live nine times because you are a cat
         );
 
-        if (PHP_VERSION_ID > 70400) {
+        if (PHP_VERSION_ID >= 70400) {
             $this->expectException(\Throwable::class);
         } else {
             $this->expectException(Error::class);
